@@ -13,10 +13,9 @@
 const IncrementalGroup = require('./IncrementalGroup');
 const PropTypes = require('prop-types');
 const React = require('react');
-const View = require('../Components/View/View');
+const {View} = require('react-native');
 
-import type {ViewStyleProp} from '../StyleSheet/StyleSheet';
-import type {LayoutEvent} from '../Types/CoreEventTypes';
+import type {ViewStyleProp, LayoutEvent} from 'react-native';
 import type {Context} from './Incremental';
 
 /**

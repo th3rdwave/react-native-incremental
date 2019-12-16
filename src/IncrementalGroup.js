@@ -15,7 +15,7 @@ const React = require('react');
 
 const PropTypes = require('prop-types');
 
-const infoLog = require('../Utilities/infoLog');
+const infoLog = require('./infoLog');
 
 let _groupCounter = -1;
 const DEBUG = false;
